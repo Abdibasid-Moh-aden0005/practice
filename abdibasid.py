@@ -64,33 +64,33 @@
 
 # inheritance :
 
-class car:
-    def __init__(self, company, modal):
-        self.company = company
-        self.modal = modal
+# class car:
+#     def __init__(self, company, modal):
+#         self.company = company
+#         self.modal = modal
 
-    def start_engine(self):
-        return f"{self.company} ,{self.modal} is started"
+#     def start_engine(self):
+#         return f"{self.company} ,{self.modal} is started"
 
-    def stop_engine(self):
-        return f"{self.company},{self.modal} is stopped"
-
-
-class electricCar(car):
-    def __init__(self, company, modal, batteryCapacity):
-        super().__init__(company, modal)
-        self.batteryCapacity = batteryCapacity
-
-    def charge(self):
-        return f"{self.company} ,{self.modal},{self.batteryCapacity}kwh is fully charged "
+#     def stop_engine(self):
+#         return f"{self.company},{self.modal} is stopped"
 
 
-if __name__ == "__main__":
-    Marcedes = car("marcedes", "modal4")
-    print(Marcedes.start_engine())
+# class electricCar(car):
+#     def __init__(self, company, modal, batteryCapacity):
+#         super().__init__(company, modal)
+#         self.batteryCapacity = batteryCapacity
 
-    Tesla = electricCar("Tesla", "Modal_5", 1000)
-    print(Tesla.start_engine())
+#     def charge(self):
+#         return f"{self.company} ,{self.modal},{self.batteryCapacity}kwh is fully charged "
+
+
+# if __name__ == "__main__":
+#     Marcedes = car("marcedes", "modal4")
+#     print(Marcedes.start_engine())
+
+#     Tesla = electricCar("Tesla", "Modal_5", 1000)
+#     print(Tesla.start_engine())
 
 # class Sports:
 #     outdoor = True
@@ -103,3 +103,7 @@ if __name__ == "__main__":
 # club = Sports("Golf", "America")
 # print(club.sports_name)
 # print(club.sports_team)
+
+###
+print("hello world !!!!")
+print("abdibasid")
